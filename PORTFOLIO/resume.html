@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="link.css">
+    <script src="https://code.iconify.design/iconify-icon/1.0.5/iconify-icon.min.js"></script>
+    <style>
+        div#main{
+            display: flex;
+        }
+         div#second{
+            position: relative;
+            width:1100px;
+            height: 612px;
+            /* border: 1px solid black; */
+            padding-left: 80px;
+            padding-top: 35px;
+            background-color: #e0e0de;
+            padding-right: 77px;
+        }
+        div#resume{
+            border:1px solid grey;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            font-weight: 620;
+            font-size: 70px;
+            width: 870px;
+            height:80px;
+            letter-spacing: 9px;
+            font-family: sans-serif;
+        } 
+        div#edu{
+            width:860px;
+            border-bottom: 1px solid grey;
+            height:220px;
+            margin-left: 10px;
+            padding-top: 30px;;
+        }
+        div#edu2{
+            width:860px;
+            border-bottom: 1px solid grey;
+            height:230px;
+            margin-left: 10px;
+            padding-top: 30px;;
+        }
+        span#edu{
+            font-size: 28px;
+            font-weight: 600;
+            font-family: sans-serif;
+        }
+        span#orange{
+            display: inline-block;
+            background-color: #fdb90b;
+            color: white;
+            margin-top: 8px;
+        }
+        span#mid{
+            margin-top: 6px;
+            display: inline-block;
+            font-style: 20px;
+            font-family: sans-serif;
+            font-weight: 700;
+        }
+        div.res{
+            float: left;
+            margin-right: 20px;
+            width: 31%;
+            box-sizing: border-box;
+
+        }
+        div#float{
+            box-sizing: border-box;
+        }
+
+        div#icons{
+        width:30px;
+        height:270px;
+        background-color:#f0af0d; ;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 150px;;
+        right: 20px;
+        border-radius: 10px ;
+        justify-content: space-around;
+        padding-left: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+      }
+      a#icon{
+        color:black;
+        text-decoration: none;
+      }
+    
+     span.san{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 16.6px;
+     }
+     @media screen and (min-width:300px) and (max-width: 800px){
+        div#second{
+            width:100%;
+            box-sizing: border-box;
+            padding-left: 12px;
+           
+        }
+        body{
+            background-color: #e0e0de;
+            padding-bottom: 10px;
+        }
+        div.res{
+            width:100%;
+            /* float:left;
+            clear:both;
+            height:100px */
+            /* display:inline-block */
+        }
+        div#edu{
+            display: inline;
+            border: 0px;
+            margin-left: 0px;
+            margin-bottom: 10px;
+           
+        }
+        div#edu2{
+            display: inline;
+            border: 0px;
+            margin-top: 20px;
+            margin-left: 0px;
+        }
+
+        span#edu{
+            margin-top: 15px;
+        }
+        div#resume{
+      width:100%;
+      font-size: 40px;
+      display: flex;
+      align-items: center;
+   
+    }
+    div#icons{
+        right:3px;
+    }
+     }
+    </style>
+</head>
+<body>
+    <div id="main">
+    <div id="link">
+        <img src="love3.jpg" alt="ADRIANA">
+        <div id="yellow">
+            <iconify-icon icon="ion:pin" width="25" id="iconi"></iconify-icon>
+            <a id="links" href="index.html">HOME</a>
+            <div class="iconi"><div id="iconi"></div></div>
+            <a id="links" href="aboutme.html">ABOUT ME</a>
+            <div class="iconi"><div id="iconi"></div></div>
+            <a  class="active"href="resume.html">RESUME</a>
+            <div class="iconi"><div id="iconi"></div></div>
+            <a id="links" href="portfolio.html">PORTFOLIO</a>
+            <div class="iconi"><div id="iconi"></div></div>
+            <a href="testimonials.html" id="links">TESTIMONIALS</a>
+            <div class="iconi"><div id="iconi"></div></div>
+            <a   id="links"  href="contact.html">CONTACT </a>
+            <iconify-icon icon="ion:pin" width="24" rotate="180deg" id="iconi"></iconify-icon>
+           </div>
+         </div>
+
+         <div id="second">
+            <div id="resume">RESUME</div>
+            <div id="edu">
+                <span id="edu">EDUCATION</span><br>
+               <div id="float">
+               <div class="res"> <span id="orange">YEAR:1998-2004</span><br>
+                <span id="mid">Primary Education</span><br>
+                <span class="san">I attended Meritha Private School in Ojo LGA from Primary one to Primary six. We were taught Eighteen (18) subjects including Computer Studies which
+                    I always got an 'A' grade in.
+                </span>
+              </div>
+              <div class="res"> <span id="orange">YEAR:2004-2010</span><br>
+                <span id="mid">Secondary Education</span><br>
+                <span class="san">I attended Queen's College, Yaba for my seconday school Education.
+                    I was a science student then. I offered Thirteen (13) subjects including Computer, Cisco and Data Processing.
+                </span>
+            </div>
+            <div class="res"> <span id="orange">YEAR:2010-2016</span><br>
+                <span id="mid">Tertiary Education</span><br>
+                <span class="san"> I studied Computer Engineering in Bells University of Technology and I graduated with a first class degree.
+                     I did my master's degree in Massachusetts Institute of Technology (MIT) in 2016.
+                </span>
+            </div>
+            
+            </div>
+            </div>
+
+
+            <div id="edu2">
+                <span id="edu">EXPERIENCE</span><br>
+               <div id="float">
+               <div class="res"> <span id="orange">YEAR: 2016-2020</span><br>
+                <span id="mid">Web Designer</span><br>
+                <span class="san" >
+                   I completed a total of 360 projects for 210 clients utilizing HTML, CSS, JavaScript and JQuery. I also resolved web application issues based on external and internal
+                   reports with 100% efficiency. 
+                </span>
+              </div>
+              <div class="res"> <span id="orange">YEAR: 2018-2021</span><br>
+                <span id="mid">Graphic Designer</span><br>
+                <span class="san">I created and managed digital campaigns for top clients. Also, I designed over 20 static and video assets, utilizing different styles
+                    and approaches, nearly all of which were included in public campaign efforts. </span>
+            </div>
+            <div class="res"> <span id="orange">YEAR: 2020-2023</span><br>
+                <span id="mid">Photographer</span><br>
+                <span class="san">I collaborated with an in-house photographer and creative department, producing photo shoots that generated over &#8358 1,000,000 in revenue. In my free time,
+                    I assisted in post production processing such as retouching.
+                </span>
+            </div>
+            
+            </div>
+            </div>
+
+            <div id="icons">
+                <a id="icon" href="index.html"><iconify-icon icon="material-symbols:garage-home-sharp" width="23"></iconify-icon></a>
+                <div class="iconi2"><div id="iconi2"></div></div>
+                <a href="aboutme.html" id="icon"><iconify-icon icon="ri:contacts-fill" width="23"></iconify-icon></a>
+                <div class="iconi2"><div id="iconi2"></div></div>
+                <a href="resume.html" id="icon"><iconify-icon icon="mdi:briefcase" style="color: white;" width="23"></iconify-icon></a>
+                <div class="iconi2"><div id="iconi2"></div></div>
+                <a href="portfolio.html" id="icon"><iconify-icon icon="zondicons:computer-desktop" width="23"></iconify-icon></a>
+                <div class="iconi2"><div id="iconi2"></div></div>
+                <a href="testimonials.html" id="icon"> <iconify-icon icon="heroicons-solid:speakerphone" width="23"></iconify-icon></a>
+                <div class="iconi2"><div id="iconi2"></div></div>
+                <a href="contact.html" id="icon"><iconify-icon icon="cib:bancontact" width="23"></iconify-icon></a>
+              </div>
+        </div>
+         </div>
+</body>
+</html>

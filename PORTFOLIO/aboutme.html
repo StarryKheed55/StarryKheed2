@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.iconify.design/iconify-icon/1.0.5/iconify-icon.min.js"></script>
+    <link rel="stylesheet" href="link.css">
+    <style>
+        
+        div#second{
+            position: relative;
+            width:1100px;
+            height: 612px;
+            /* border: 1px solid black; */
+            padding-left: 80px;
+            padding-top: 35px;
+            background-color: #e0e0de;
+            padding-right: 77px;
+        }
+        div#about{
+            border:1px solid grey;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            font-weight: 620;
+            font-size: 70px;
+            width: 870px;
+            height:80px;
+            letter-spacing: 9px;
+            font-family: sans-serif;
+        }
+      div#head{
+        font-size: 27px;;
+        font-family: sans-serif;
+        padding-bottom: 0px;
+        margin-top: 30px;
+        margin-bottom: 12px;
+      }
+      div#number{
+        margin-top: 30px;
+        /* display:flex */
+        position: relative;
+      
+      }
+      div#num{
+        width:570px;
+        display: flex;
+      }
+      div.fig{
+        width:285px;
+        height: 160px;
+        background-color: black;
+        border: 1px solid grey;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+      span#gold{
+        color: gold;
+        font-size: 40px;
+      }
+      span#gold:hover{
+        color: gold;
+        font-size: 50px;
+      }
+      span#words{
+        color: white;
+        font-size: 20px;
+      }
+      div#icons{
+        width:30px;
+        height:270px;
+        background-color:#f0af0d ;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 150px;;
+        right: 20px;
+        border-radius: 10px ;
+        justify-content: space-around;
+        padding-left: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+      }
+      a#icon{
+        color:black;
+        text-decoration: none;
+      }
+      div#whatdo{
+        width:320px;
+        /* border: 1px solid grey; */
+        height: 320px;
+        position: absolute;
+        top: 1px;;
+        right:10px
+      }
+      div#pic{
+      width:100px;
+      height:100px;
+      box-sizing: border-box;
+      padding-left: 25px;
+      padding-right: 20px;
+
+      /* border: 1px solid grey; */
+      }
+      img.des{
+        width: 62px;
+        height: 83px;
+        padding-top: 0px;
+      }
+      div#words{
+        width:220px;
+        height:100px;
+        /* border:1px solid grey; */
+        
+      }
+      span#bold{
+        font-family: sans-serif;
+        font-weight: 900;
+      }
+      span#do{
+        font-size: 22px;
+        font-weight: 700;
+        display: inline-block;
+        padding-left: 25px;
+        font-family: sans-serif;
+      }
+      div#comp{
+        width:300px;
+        height: 100px;
+      }
+    div#text{
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 18px;
+      padding-right: 15px;
+    }
+    span#des{
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 15px;
+    }
+    a#links:hover{
+      color:whitesmoke
+    }
+    @media screen and (min-width:300px) and (max-width: 800px){
+      body{
+        background-color: #e0e0de;
+        width:100%;
+        box-sizing: border-box;
+      }
+      div#link{
+        display:none
+      }
+      div#icons{
+      position:fixed;
+      width:25px;
+      right:6px
+    }
+    div#second{
+      width:100%;
+      box-sizing: border-box;
+      padding-right:0px ;
+      padding-left: 14px;
+
+
+    }
+    div#about{
+      width:88%;
+      font-size: 40px;
+      display: flex;
+      align-items: center;
+      box-sizing: border-box;
+   
+    }
+    div#whatdo{
+      position:relative;
+      float:left;
+      clear:both;
+      margin-top: 20px;
+      width:400px
+    }
+    div.fig{
+      width: 50%;
+      box-sizing: border-box;
+      
+    }
+    div#text{
+      width:90%;
+      font-size: 17px;
+    }
+    div#words{
+     height:120px;
+     width:300px
+    }
+    span#des{
+      font-size: 17px;
+    }
+    img.des{
+     width:65px;
+     margin-right: 7px;
+    }
+    body{
+      width:100%;
+      box-sizing: border-box;
+    }
+    div#num{
+      /* width:100%;
+      box-sizing: border-box; */
+      /* border:  1px solid black; */
+      width:86%
+    }
+  }
+  
+    </style>
+</head>
+<body>
+    <div id="main">
+
+    <div id="link">
+    <img src="love3.jpg" alt="ADRIANA">
+    <div id="yellow">
+      <iconify-icon icon="ion:pin" width="25" id="iconi"></iconify-icon>
+      <a id="links" href="index.html">HOME</a>
+      <div class="iconi"><div id="iconi"></div></div>
+      <a href="aboutme.html" class="active">ABOUT ME</a>
+      <div class="iconi"><div id="iconi"></div></div>
+      <a id="links"href="resume.html">RESUME</a>
+      <div class="iconi"><div id="iconi"></div></div>
+      <a id="links" href="portfolio.html">PORTFOLIO</a>
+      <div class="iconi"><div id="iconi"></div></div>
+      <a   id="links" href="testimonials.html">TESTIMONIALS</a>
+      <div class="iconi"><div id="iconi"></div></div>
+      <a    id="links" href="contact.html">CONTACT </a>
+      <iconify-icon icon="ion:pin" width="24" rotate="180deg" id="iconi"></iconify-icon>
+     </div>
+     </div>
+      
+     <div id="second">
+        <div id="about">ABOUT ME</div>
+
+        <div id="head">I'm <span style="font-weight: 600;">Adriana Maxwell,</span> Graphic Designer / Photographer</div>
+        <div id="text">I am 28 years old. I hail from Imo state and I am a Nigerian by Nationality. I schooled at Queen's College for my
+         secondary school education from 2004-2010. I graduated from Bells University of Technology with a bachelor's degree in Computer Engineering
+         after which I did my masters at Massachusetts Institute of Technology (MIT) in 2016. I have been in Tech field for over
+      7 years and I have done over 350 projects with 200 plus happy clients.</div>
+
+     <div id="number">
+        <div id="num">
+            <div class="fig">
+                <span id="gold">07+</span>
+                <span id="words">Years Experience</span>
+            </div>
+            <div class="fig">
+                <span id="gold">350+</span>
+                <span id="words">Projects Done</span>
+            </div>
+        </div>
+        <div id="num">
+            <div class="fig">
+                <span id="gold">200+</span>
+                <span id="words">Happy Clients</span>
+            </div>
+            <div class="fig">
+                <span id="gold">45k</span>
+                <span id="words">Followers</span>
+            </div>
+        </div>
+
+        <div id="whatdo">
+          <span id="do">What I Do?</span><br>
+
+          <div id="print" style="display:flex;">
+          <div id="pic"><img class="des" src="graphicc.png" alt=""></div>
+          <div id="words">
+          <span id="bold">GRAPHIC DESIGN</span><br>
+          <span id="des">Graphic design is the process of creating visual content that helps to communicate messages with an audience. </span>
+          </div>  </div>
+          <div id="print" style="display:flex;">
+            <div id="pic"><img class="des" src="webicon.png" alt=""></div>
+            <div id="words">
+            <span id="bold">WEB DESIGN</span><br>
+            <span id="des">Web design involves creating engaging and intuitive web pages for users. </span>
+            </div></div>
+            
+            <div id="print" style="display:flex;">
+              <div id="pic"><img class="des" src="photoicon2.png" alt=""></div>
+              <div id="words">
+              <span id="bold">PHOTOGRAPHY</span><br>
+              <span id="des">Photography is the art of creating durable images by recording light by means of a light-sensitive material such as photographic film.</span>
+              </div>
+          
+
+
+
+        </div>
+  </div>
+</div>
+
+  <div id="icons">
+    <a id="icon" href="index.html"><iconify-icon icon="material-symbols:garage-home-sharp" width="23"></iconify-icon></a>
+    <div class="iconi2"><div id="iconi2"></div></div>
+    <a href="aboutme.html" id="icon"><iconify-icon icon="ri:contacts-fill" style="color: white;" width="23"></iconify-icon></a>
+    <div class="iconi2"><div id="iconi2"></div></div>
+    <a href="resume.html" id="icon"><iconify-icon icon="mdi:briefcase"  width="23"></iconify-icon></a>
+    <div class="iconi2"><div id="iconi2"></div></div>
+    <a href="portfolio.html" id="icon"><iconify-icon icon="zondicons:computer-desktop"  width="23"></iconify-icon></a>
+    <div class="iconi2"><div id="iconi2"></div></div>
+    <a href="testimonials.html" id="icon"><iconify-icon icon="heroicons-solid:speakerphone"  width="23"></iconify-icon></a>
+    <div class="iconi2"><div id="iconi2"></div></div>
+    <a href="contact.html" id="icon"><iconify-icon icon="cib:bancontact"  width="23"></iconify-icon></a>
+  </div>
+      
+
+
+
+     </div>
+
+
+
+    </div>
+</body>
+</html>

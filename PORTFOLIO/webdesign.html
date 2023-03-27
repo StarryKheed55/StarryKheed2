@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.iconify.design/iconify-icon/1.0.5/iconify-icon.min.js"></script>
+    <link rel="stylesheet" href="link.css">
+    <style>
+        div#main{
+            display: flex;
+        }
+         div#second{
+            position: relative;
+            width:1100px;
+            height: 612px;
+            /* border: 1px solid black; */
+            padding-left: 80px;
+            padding-top: 35px;
+            background-color: #e0e0de;
+            padding-right: 77px;
+        }
+     div#about{
+            border:1px solid grey;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            font-weight: 620;
+            font-size: 70px;
+            width: 870px;
+            height:80px;
+            letter-spacing: 9px;
+            font-family: sans-serif;
+        }
+        div#seclink{
+            display: flex;
+            padding-left: 50px;
+            padding-top: 20px;
+            
+        }
+        a.seclink{
+           color: black;
+            text-decoration: none;
+            display: inline;
+            flex-grow: 1;
+            font-family: sans-serif;
+            font-weight: 600;
+            font-size: 21px;
+           
+            
+        }
+        a.activee{
+            text-decoration: none;
+            color: white;
+            display: inline;
+            flex-grow: 1;
+            font-family: sans-serif;
+            font-weight: 600;
+           font-size: 21px;
+        }
+        div#icons{
+        width:30px;
+        height:270px;
+        background-color:#f0af0d; ;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 150px;;
+        right: 20px;
+        border-radius: 10px ;
+        justify-content: space-around;
+        padding-left: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+      }
+      a#icon{
+        color:black;
+        text-decoration: none;
+      }
+      div#pics{
+        display: flex;
+        padding-left: 100px;
+        padding-top: 20px;
+      }
+      img.pics{
+        width:320px;
+        height: 212px;
+        margin-right: 13px;
+      }
+      @media screen and (min-width:300px) and (max-width:800px){
+        body{
+            background-color:#e0e0de ;
+        }
+        div#second{
+            width:100%;
+            box-sizing: border-box;
+            padding-left: 12px;
+        }
+        div#about{
+      width:100%;
+      font-size: 30px;
+      display: flex;
+      align-items: center;
+      margin-left: 10px;
+   
+    }
+    div#seclink{
+        width:100%;
+        box-sizing: border-box;
+        margin-left: 8px;
+        padding-left: 0px;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 0px;
+    }
+    a.seclink , a.activee{
+        font-size: 14px;
+    }
+    img.pics{
+      width:45%;
+      /* display: inline; */
+      float:left;
+    }
+    div#pics{
+      padding-left: 0px;
+      display: inline-block;
+    }}
+    </style>
+</head>
+<body>
+    <div id="main">
+    <div id="link">
+        <img src="love3.jpg" alt="ADRIANA">
+        <div id="yellow">
+          <iconify-icon icon="ion:pin" width="25" id="iconi"></iconify-icon>
+          <a id="links" href="index.html">HOME</a>
+          <div class="iconi"><div id="iconi"></div></div>
+          <a id="links" href="aboutme.html">ABOUT ME</a>
+          <div class="iconi"><div id="iconi"></div></div>
+          <a id="links"   href="resume.html">RESUME</a>
+          <div class="iconi"><div id="iconi"></div></div>
+          <a  class="active"href="portfolio.html">PORTFOLIO</a>
+          <div class="iconi"><div id="iconi"></div></div>
+          <a href="testimonials.html" id="links">TESTIMONIALS</a>
+          <div class="iconi"><div id="iconi"></div></div>
+          <a   id="links"  href="contact.html">CONTACT </a>
+          <iconify-icon icon="ion:pin" width="24" rotate="180deg" id="iconi"></iconify-icon>
+         </div>
+         </div>
+        
+         <div id="second">
+            <div id="about"> PORTFOLIO</div>
+            <div id="seclink">
+                <a href="portfolio.html" class="seclink" >ALL</a>
+                <a href="graphicdesign.html"  class="seclink">GRAPHIC DESIGN</a>
+                <a href="webdesign.html"class="activee" >WEB DESIGN</a>
+                <a href="photography.html" class="seclink">PHOTOGRAPHY</a>
+            </div>
+            <div id="pics">
+                <img src="des6.jpg" alt="Web Design" class="pics">
+                <img src="des2.jpg" alt="Web Design" class="pics">
+            </div>
+            <div id="pics">
+                <img src="des3.jpg" alt="Web Design" class="pics">
+                <img src="des5.jpg" alt="Web Design" class="pics">
+            </div>
+            <div id="icons">
+                <a id="icon" href="index.html"><iconify-icon icon="material-symbols:garage-home-sharp" width="23"></iconify-icon></a>
+                <div class="iconi2"><div id="iconi2"></div></div>
+                <a href="aboutme.html" id="icon"><iconify-icon icon="ri:contacts-fill"  width="23"></iconify-icon></a>
+                <div class="iconi2"><div id="iconi2"></div></div>
+                <a href="resume.html" id="icon"><iconify-icon icon="mdi:briefcase"  width="23"></iconify-icon></a>
+                <div class="iconi2"><div id="iconi2"></div></div>
+                <a href="portfolio.html" id="icon"><iconify-icon icon="zondicons:computer-desktop" style="color: white;" width="23"></iconify-icon></a>
+                <div class="iconi2"><div id="iconi2"></div></div>
+                <a href="testimonials.html" id="icon"><iconify-icon icon="heroicons-solid:speakerphone"  width="23"></iconify-icon></a>
+                <div class="iconi2"><div id="iconi2"></div></div>
+                <a href="contact.html" id="icon"><iconify-icon icon="cib:bancontact"  width="23"></iconify-icon></a>
+              </div>
+         </div>    
+        </div>
+</body>
+</html>

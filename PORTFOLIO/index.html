@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.iconify.design/iconify-icon/1.0.5/iconify-icon.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap" rel="stylesheet">
+    <style>
+
+        div#main{
+            display:flex;
+            width:100%;
+            box-sizing: border-box;
+            border: 1px solid black;
+            box-shadow: 2px 2px 2px;
+        }
+      div#words{
+        width:50%;
+        height: 640px;
+       
+      }
+      div#pic{
+        width:50%;
+        height:640px;
+        border:1px solid black;
+        position: relative;
+      }
+      div#text{
+        margin:140px 20px 0px 90px;
+      }
+      span#yellow{
+        color:#f0af0d;;
+        font-family: 'Londrina Outline', cursive;
+        letter-spacing: 6px;
+        font-weight: 1200;
+      }
+      span#h1{
+        font-size: 55px;
+         font-weight: 800;
+         display: inline-block;
+         margin-top: 16px;
+      }
+      span#h2{
+        font-size:30px;
+        font-weight: 800;
+      }
+      span#block{
+        display: inline-block;
+        background-color:#f0af0d;;
+        font-weight: 800;
+        margin-top: 10px;
+        font-size: 20px;
+      }
+      a#about{
+        width: 120px;;
+        height:30px;
+        border-radius: 12px;
+        background-color:#f0af0d;;
+        color:white;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        padding-left:10px;
+        justify-content: center;
+        padding-right: 10px;
+        font-size: 16px;
+      }
+      img{
+        width:663px;
+        height: 640px;
+      }
+      div#icons{
+        width:30px;
+        height:270px;
+        background-color:#f0af0d; ;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 150px;;
+        right: 20px;
+        border-radius: 10px ;
+        justify-content: space-around;
+        padding-left: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+      }
+      a#icon{
+        color:black;
+        text-decoration: none;
+      }
+      a#icon:hover{
+        color:white;
+      }
+    
+      a.active{
+        color:white;
+       
+      }
+       p{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 650;
+        font-size: 18px;
+       }
+       /* @media screen and (max-width:500px){
+        div#icons{
+       position: absolute;
+        top: 120px;;
+        right: -20px;
+        }
+       } */
+       div#iconi2{
+    width: 2px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    text-align:center;
+    justify-content: center;
+    background-color: black;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+  div.iconi2{
+    display:flex;
+    justify-content: center;
+    width: 22px;
+    height: auto;
+  }
+    
+  @media screen and (min-width:300px) and (max-width: 800px){
+    div#text{
+      font-size: 13px;
+      margin-left: 8px;
+      /* background-color: red; */
+    }
+    p{
+      font-size: 16px;
+    }
+    span#h1{
+      font-size: 34px;
+    }
+    div#main{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    div#words{
+      width:100%;
+      padding-right: 25px;
+      box-sizing: border-box;
+    }
+    div#icons{
+      position:fixed;
+      width:25px;
+      right:10px
+      /* bottom:0;
+      left:50%; */
+      /* transform: rotate(270deg);
+      width: */
+      
+    }
+    div#pic{
+      width:100%
+    }
+    img{
+      width:100%
+    }
+    /* #icon{
+      transform:rotate(90deg);
+      display:flex;
+      justify-content: center;
+    }
+    .active{
+      transform:rotate(90deg)
+    }
+    div#iconi2{
+      width:0px
+    } */
+  }
+    </style>
+</head>
+<body>
+    <div id="main">
+   <div id="words">
+    <div id="text">
+     <span id="h2">HI THERE!</span><br>
+     <span id="h1">I'M <span id="yellow">ADRIANA</span></span><br>
+     <span id="block">GRAPHIC DESIGNER / PHOTOGRAPHER</span>
+      
+     <p>I am a Graphic Designer as well as a Photographer. I help create company logos, book covers, business cards, infographics,
+      posters, high-definition photographs and many more. I also create responsive websites which can be used on any device. You tell me what you want and I will deliver exactly that to you.
+     </p>
+    <a id="about" href="aboutme.html">More about me</a>
+    </div>
+    </div>
+
+
+
+    <div id="pic">
+
+    <img src="love3.jpg" alt="ADRIANA">
+     <div id="icons">
+      <a class="active" href="index.html"><iconify-icon  icon="material-symbols:garage-home-sharp" width="23"></iconify-icon></a>
+      <div class="iconi2"><div id="iconi2"></div></div>
+      <a href="aboutme.html" id="icon"><iconify-icon icon="ri:contacts-fill"  width="23"></iconify-icon></a>
+      <div class="iconi2"><div id="iconi2"></div></div>
+      <a href="resume.html" id="icon"><iconify-icon icon="mdi:briefcase" width="23"></iconify-icon></a>
+      <div class="iconi2"><div id="iconi2"></div></div>
+      <a href="portfolio.html" id="icon"><iconify-icon icon="zondicons:computer-desktop"  width="23"></iconify-icon></a>
+      <div class="iconi2"><div id="iconi2"></div></div>
+      <a href="testimonials.html" id="icon"><iconify-icon icon="heroicons-solid:speakerphone"  width="23"></iconify-icon></a>
+      <div class="iconi2"><div id="iconi2"></div></div>
+      <a href="contact.html" id="icon"><iconify-icon icon="cib:bancontact"  width="23"></iconify-icon></a>
+    </div>
+
+</div>
+</div>
+</body>
+</html>
